@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'dentalicons2';
+  src:  url('fonts/dentalicons2.eot?sjt5ax');
+  src:  url('fonts/dentalicons2.eot?sjt5ax#iefix') format('embedded-opentype'),
+    url('fonts/dentalicons2.ttf?sjt5ax') format('truetype'),
+    url('fonts/dentalicons2.woff?sjt5ax') format('woff'),
+    url('fonts/dentalicons2.svg?sjt5ax#dentalicons2') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sow-icon-dentalicons2, [class^="dentalicons2-"], [class*="dentalicons2-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dentalicons2' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sow-icon-dentalicons2[data-sow-icon]:before{
+    font-family: 'dentalicons2' !important;
+    content: attr(data-sow-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+}
+
+
+.dental-dentalia-37:before {
+  content: "\e900";
+}
+.dental-dentalia-38:before {
+  content: "\e924";
+}
+.dental-dentalia-39:before {
+  content: "\e925";
+}
+.dental-dentalia-40:before {
+  content: "\e926";
+}
+.dental-dentalia-36:before {
+  content: "\e8fa";
+}
+.dental-dentalia-35:before {
+  content: "\e901";
+}
+.dental-dentalia-34:before {
+  content: "\e902";
+}
+.dental-dentalia-33:before {
+  content: "\e903";
+}
+.dental-dentalia-32:before {
+  content: "\e904";
+}
+.dental-dentalia-31:before {
+  content: "\e905";
+}
+.dental-dentalia-30:before {
+  content: "\e906";
+}
+.dental-dentalia-29:before {
+  content: "\e907";
+}
+.dental-dentalia-28:before {
+  content: "\e908";
+}
+.dental-dentalia-27:before {
+  content: "\e909";
+}
+.dental-dentalia-26:before {
+  content: "\e90a";
+}
+.dental-dentalia-25:before {
+  content: "\e90b";
+}
+.dental-dentalia-24:before {
+  content: "\e90c";
+}
+.dental-dentalia-23:before {
+  content: "\e90d";
+}
+.dental-dentalia-22:before {
+  content: "\e90e";
+}
+.dental-dentalia-21:before {
+  content: "\e90f";
+}
+.dental-dentalia-20:before {
+  content: "\e910";
+}
+.dental-dentalia-19:before {
+  content: "\e911";
+}
+.dental-dentalia-18:before {
+  content: "\e912";
+}
+.dental-dentalia-17:before {
+  content: "\e913";
+}
+.dental-dentalia-16:before {
+  content: "\e914";
+}
+.dental-dentalia-15:before {
+  content: "\e915";
+}
+.dental-dentalia-14:before {
+  content: "\e916";
+}
+.dental-dentalia-13:before {
+  content: "\e917";
+}
+.dental-dentalia-12:before {
+  content: "\e918";
+}
+.dental-dentalia-11:before {
+  content: "\e919";
+}
+.dental-dentalia-10:before {
+  content: "\e91a";
+}
+.dental-dentalia-9:before {
+  content: "\e91b";
+}
+.dental-dentalia-8:before {
+  content: "\e91c";
+}
+.dental-dentalia-7:before {
+  content: "\e91d";
+}
+.dental-dentalia-6:before {
+  content: "\e91e";
+}
+.dental-dentalia-5:before {
+  content: "\e91f";
+}
+.dental-dentalia-4:before {
+  content: "\e920";
+}
+.dental-dentalia-3:before {
+  content: "\e921";
+}
+.dental-dentalia-2:before {
+  content: "\e922";
+}
+.dental-dentalia-1:before {
+  content: "\e923";
+}
+

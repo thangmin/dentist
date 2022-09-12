@@ -1,0 +1,832 @@
+
+
+
+@media (min-width: 992px) {
+	header.nav-dark .nav-menu ul.sub-menu li.menu-item:not(:last-child):not(.orion-megamenu-subitem):after {
+		background-color: rgba(0,0,0,0.05);
+	}
+	/* minicart */
+	header.nav-dark .last-tab-wrap .woocart ul.product_list_widget > li.mini_cart_item {
+    	border-bottom: 1px solid rgba(0,0,0,0.05);
+	}
+
+	header.nav-light .nav-menu ul.sub-menu li.menu-item:not(:last-child):not(.orion-megamenu-subitem):after {
+		background-color: rgba(0,0,0,0.2);
+	}
+	/* minicart */
+	header.nav-light .last-tab-wrap .woocart ul.product_list_widget > li.mini_cart_item {
+    	border-bottom: 1px solid rgba(0,0,0,0.2);
+	}
+
+	header .nav-menu .orion-megamenu.mega-light-borders ul.sub-menu .sub-menu li.menu-item:not(:last-child):after {
+		background-color: rgba(0,0,0,0.2);
+	}
+	header .nav-menu .orion-megamenu.mega-dark-borders ul.sub-menu .sub-menu li.menu-item:not(:last-child):after {
+		background-color: rgba(0,0,0,0.05);
+	}	
+}
+
+header.nav-style-2 .nav-menu > .orion-megamenu > .mega-indicator-wrap:after {
+	border-bottom-color: false;
+}
+
+.top-bar, .top-bar .widget_shopping_cart .orion-cart-wrapper {
+	background-color: #ffffff;
+}
+
+.top-bar-toggle {
+	border-top-color: #ffffff;
+}
+@media (min-width: 992px) {
+	.mainheader a.logo > img {
+		max-height: 72px;
+		max-width: 300px;
+	} 
+	.header-classic .site-branding, header.stickymenu .site-branding {
+		width: 300px;
+	}
+}
+ 
+
+			@media (max-width: 991px) {
+			header.site-header .site-branding a.logo {
+				margin-top: 30px;
+			}
+		}
+		
+		@media (max-width: 991px) {
+			header.site-header .site-branding a.logo {
+				margin-bottom: 24px;
+			}
+		}
+		
+
+@media (min-width: 992px) {	
+	header.nav-dark:not(.stickymenu) .nav-container {
+		background-color:#2B354B;
+	}
+	header.nav-light:not(.stickymenu) .nav-container {
+		background-color:transparent;
+	}
+}
+
+	
+@media (min-width: 992px) {	
+
+				
+	.nav-dark .nav-menu > li > a, .nav-dark .nav-menu > ul > li > a {
+		color:  #fff;
+		background: transparent;
+	}
+	.nav-dark .nav-menu > li:hover > a, .nav-dark .nav-menu > ul > li:hover > a, .nav-dark .nav-menu > li:focus > a, .nav-dark .nav-menu > ul > li:focus > a {
+		color:  #fff;
+		background: rgba(0,0,0,0.30);
+	}	
+	.nav-dark .nav-menu > li.current_page_item > a, .nav-dark .nav-menu > li.current-menu-ancestor > a, .nav-dark .nav-menu > li.one-page-current-item > a,
+	.nav-dark .nav-menu > li.one-page-current-anchester > a {
+		color:  #fff;
+		background: #00bcd4;
+	}
+	.nav-dark .last-tab-wrap .woo-cart-icon, .nav-dark .last-tab-wrap .cart-quantity {
+		color:  #fff;
+	}
+
+		.nav-dark ul.sub-menu:not(.mega-light) li.menu-item > a, .orion-megamenu ul.sub-menu.nav-dark li.menu-item > a, .nav-dark ul.sub-menu:not(.nav-light) li.menu-item > span, .nav-dark .nav-menu ul.sub-menu:not(.mega-light) li > a > span.coll_btn i, .nav-dark .search-submit, .nav-dark .search-form input, header.nav-dark .nav-menu .togglecontainer .widget_nav_menu li a, li.orion-megamenu > ul.sub-menu.nav-dark > li:hover > a, header.nav-dark .main-nav-wrap .nav-menu .orion-cart-wrapper a:not(.btn),
+	header.nav-dark .main-nav-wrap .nav-menu .orion-cart-wrapper a:not(.btn) span {
+		color: #212121;
+	}
+	.nav-dark ul.sub-menu .menu-item:hover > a, .nav-dark ul.sub-menu li.menu-item:hover > a:not(.btn):hover, .nav-dark .nav-menu ul.sub-menu li:hover > a > span.coll_btn i, .nav-dark ul.sub-menu li:focus > a, .nav-dark .nav-menu ul.sub-menu li:focus > a > span.coll_btn i, header.nav-dark .nav-menu .togglecontainer .widget_nav_menu li a:hover, .widget_nav_menu.text-dark .current-menu-ancestor > a,
+	 li.orion-megamenu > ul.sub-menu.nav-dark > li > a:hover, header.nav-dark .main-nav-wrap .nav-menu .orion-cart-wrapper a:not(.btn):hover, header.nav-dark .main-nav-wrap .nav-menu .orion-cart-wrapper a:not(.btn):hover span {
+		color: #00bcd4;
+	}
+
+	.nav-dark ul.sub-menu li.menu-item:not(.orion-megamenu-subitem).current-menu-item > a,
+	.nav-dark ul.sub-menu li.menu-item:not(.orion-megamenu-subitem).current-menu-ancestor > a, .nav-dark ul.sub-menu li.menu-item.one-page-current-item > a, .nav-dark ul.sub-menu li.menu-item.one-page-current-anchester > a {
+		color: #00bcd4;
+	}
+
+	.nav-dark .nav-menu li:not(.orion-megamenu-subitem) > ul.sub-menu, .nav-dark .nav-menu .togglecontainer, header.nav-dark .main-nav-wrap .nav-menu .orion-cart-wrapper {
+		background-color: rgba(255,255,255,1);
+	}		
+	header.nav-dark .site-navigation .search.open .searchwrap {
+		background-color: rgba(255,255,255,1);
+	}		
+
+			
+	.nav-dark .to-x .search-box .circle.top {
+		border-top-color: #fff;
+		border-left-color: #fff;
+	}
+	.nav-dark .to-x .search-box .circle.bottom {
+		border-right-color: #fff;
+		border-bottom-color: #fff;
+	}
+	.nav-dark .to-x .search-box .handle {
+		background-color: #fff;
+	}
+
+		.nav-light .nav-menu > li > a, .nav-light .nav-menu > ul > li > a {
+		color:  #212121;
+		background: transparent;
+	}
+	.nav-light .nav-menu > li:hover > a, .nav-light .nav-menu > ul > li:hover > a, .nav-light .nav-menu > li:focus > a, .nav-light .nav-menu > ul > li:focus > a {
+		color:  #212121;
+		background: rgba(0,0,0,0.05);
+	}	
+	.nav-light .nav-menu > li.current_page_item > a, .nav-light .nav-menu > li.current-menu-ancestor > a, .nav-light .nav-menu > li.one-page-current-item > a,
+	.nav-light .nav-menu > li.one-page-current-anchester > a {
+		color:  #ffffff;
+		background: #00bcd4;
+	}	
+	.nav-light .last-tab-wrap .woo-cart-icon, .nav-light .last-tab-wrap .cart-quantity {
+		color:  #212121;
+	}
+		.nav-light ul.sub-menu li.menu-item > a, .nav-light .nav-menu ul.sub-menu li > a > span.coll_btn i,
+	.orion-megamenu ul.sub-menu.nav-light li.menu-item > a,
+	header.nav-light .main-nav-wrap .nav-menu .orion-cart-wrapper,
+	header.nav-light .main-nav-wrap .nav-menu .orion-cart-wrapper a:not(.btn),
+	header.nav-light .main-nav-wrap .nav-menu .orion-cart-wrapper a:not(.btn) span
+	{
+		color: #ffffff;
+	}
+	.nav-light ul.sub-menu li.menu-item:not(.orion-megamenu-subitem):hover > a:not(.btn),  ul.sub-menu.nav-light .megamenu-sidebar .widget_nav_menu li > a:not(.btn):hover,  ul.sub-menu.nav-light li.orion-megamenu-subitem > a:hover, .nav-light .nav-menu ul.sub-menu li:hover > a > span.coll_btn i, .nav-light ul.sub-menu li:focus > a, .nav-light .nav-menu ul.sub-menu li:focus > a > span.coll_btn i, header.nav-light .nav-menu .togglecontainer .widget_nav_menu li a:hover, .widget_nav_menu.text-light .current-menu-ancestor > a, ul.sub-menu > .current-menu-item > a, .nav-light ul.sub-menu .current-menu-item > a, ul.sub-menu > .current-menu-ancestor > a, .nav-light ul.sub-menu .current-menu-ancestor > a,
+	header.nav-light .main-nav-wrap .nav-menu .orion-cart-wrapper a:not(.btn):hover,
+	header.nav-light .main-nav-wrap .nav-menu .orion-cart-wrapper a:not(.btn):hover span {
+		color: #00bcd4;
+	}
+
+	.nav-light ul.sub-menu li.menu-item:not(.orion-megamenu-subitem).current-menu-item > a:not(.btn),
+	.nav-light ul.sub-menu li.menu-item:not(.orion-megamenu-subitem).current-menu-ancestor > a:not(.btn),
+	.nav-light ul.sub-menu li.menu-item.one-page-current-anchester > a, .nav-light ul.sub-menu li.menu-item.one-page-current-item > a {
+	color: #00bcd4;
+	}	
+
+	.nav-light .nav-menu li:not(.orion-megamenu-subitem) > ul.sub-menu, .nav-light .nav-menu .togglecontainer {
+		background-color: rgba(43,53,75,1); 
+	}
+
+	header.nav-light .site-navigation .search.open .searchwrap, header.nav-light .nav-menu .togglecontainer .widget_nav_menu li a, header.nav-light .main-nav-wrap .nav-menu .orion-cart-wrapper {
+		background-color: rgba(43,53,75,1);
+	}			
+
+		
+	.header-classic.nav-light .nav-menu > li > .sub-menu:before, .header-classic.nav-light .nav-menu > li.mega-menu-item.mega-active:before,
+	.header-with-widgets.nav-light .nav-menu > li > .sub-menu:before {
+		border-bottom-color: rgba(43,53,75,1);
+
+	}
+	.header-classic.nav-dark .nav-menu > li > .sub-menu:before, .header-classic.nav-dark .nav-menu > li.mega-menu-item.mega-active:before,
+	.header-with-widgets.nav-dark .nav-menu > li > .sub-menu:before {
+		border-bottom-color: rgba(255,255,255,1);
+	}	
+
+			
+	.nav-light .to-x .search-box .circle.top {
+		border-top-color: #212121;
+		border-left-color: #212121;
+	}
+	.nav-light .to-x .search-box .circle.bottom {
+		border-right-color: #212121;
+		border-bottom-color: #212121;
+	}
+	.nav-light .to-x .search-box .handle {
+		background-color: #212121;
+	}
+}
+@media (max-width: 991px) {	
+	.site-header .nav-container.open, .site-header .mobile-cart.open  {
+		background-color: #f2f2f2;
+	}
+
+	header.site-header.nav-dark .nav-container.open, .site-header.nav-dark .mobile-cart.open {
+		background-color: #2B354B;
+	}
+	header.site-header.nav-light .nav-container.open, .site-header.nav-light .mobile-cart.open {
+		background-color: #f2f2f2;
+	}	
+
+	header.nav-light .nav-menu li:not(.current-menu-item):not(:hover) > a, header.nav-light .nav-menu li.menu-item > span, .nav-light .coll_btn i, .nav-light .site-navigation .widget .description, .nav-light .coll_btn i, .nav-light .site-navigation .widget h4, .nav-light .site-navigation .widget p, 
+	header.nav-light .mega-dark .coll_btn i,
+		.nav-light .site-navigation .widget-title,
+		.nav-light .mobile-cart a:not(.btn), .nav-light .mobile-cart, .nav-light .mobile-cart a > .item-title,
+		.nav-light .menu-item .search-form .searchfield, .nav-light .site-navigation input.search-submit {
+
+		color: #212121;
+	}
+
+	.nav-dark .nav-menu li > a, header.nav-dark .nav-menu ul.sub-menu li:not(:hover) > a ,header.nav-dark .nav-menu ul.sub-menu li > span , .nav-dark .coll_btn i, .nav-dark .site-navigation .widget .description, .nav-dark .coll_btn i, .nav-dark .site-navigation .widget .item-title, .nav-dark .site-navigation .widget p, .nav-dark .site-navigation .widget-title,
+	header.nav-dark .mega-light .coll_btn i,
+	.nav-dark .menu-item.search .searchfield, .nav-dark .site-navigation input.search-submit, .nav-dark .mobile-cart a:not(.btn), .nav-dark .mobile-cart, .nav-dark .mobile-cart a > .item-title  {
+
+		color: #fff;
+	}
+
+		.nav-light .nav-menu .search-form input.searchfield::-webkit-input-placeholder {
+		color: #212121;
+		opacity: 0.8;
+	}
+	.nav-light .nav-menu .search-form input.searchfield::-moz-placeholder {
+		color: #212121;
+		opacity: 0.8;
+	}
+	.nav-light .nav-menu .search-form input.searchfield:-ms-input-placeholder {
+		color: #212121;
+		opacity: 0.8;
+	}
+	.nav-light .nav-menu .search-form input.searchfield::placeholder {
+		color: #212121;
+		opacity: 0.8;
+	}
+		
+	.nav-dark .nav-menu .search-form input.searchfield::-webkit-input-placeholder {
+		color: #fff;
+		opacity: 0.8;
+	}
+	.nav-dark .nav-menu .search-form input.searchfield::-moz-placeholder {
+		color: #fff;
+		opacity: 0.8;
+	}
+	.nav-dark .nav-menu .search-form input.searchfield:-ms-input-placeholder {
+		color: #fff;
+		opacity: 0.8;
+	}
+	.nav-dark .nav-menu .search-form input.searchfield::placeholder {
+		color: #fff;
+		opacity: 0.8;
+	}
+
+
+	.nav-menu li:hover > a, header .nav-menu ul.sub-menu li:hover > a, .site-header .coll_btn:hover i, .nav-menu li.current-menu-item > a, .nav-menu li.current-menu-ancestor > a {
+		color: #00bcd4!important;
+	}
+}	
+
+
+
+	
+@media (min-width: 992px) {	
+	.header-with-widgets.nav-style-1 .nav-menu > li > a, .header-with-widgets.nav-style-3 .nav-menu > li > a {
+		padding-top: 6px;
+		padding-bottom: 6px;
+	}
+
+	.header-with-widgets.nav-style-1 .nav-menu > .last-tab > .last-tab-wrap,
+	.header-with-widgets.nav-style-3 .nav-menu > .last-tab > .last-tab-wrap
+	{
+		padding-top: 6px;
+	}
+
+	.header-with-widgets.nav-style-2 .nav-menu > li:not(.last-tab) {
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+	.header-with-widgets.nav-style-2 .container-fluid .site-navigation {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+
+	.header-with-widgets.nav-style-2 .nav-menu > li.last-tab {
+		padding-top: 12px;
+	}
+	.header-with-widgets.nav-style-2:not(.stickymenu) .nav-menu > .orion-megamenu > .mega-indicator-wrap:after {
+		top: 12px;
+	}
+}
+header.header-with-widgets.nav-style-2.nav-light .nav-menu > li > .sub-menu:before {
+	border-bottom-color: rgba(43,53,75,1); 
+}
+.nav-style-2.nav-light .nav-menu > li > .sub-menu:before, .nav-style-3.nav-light .nav-menu > li > .sub-menu:before {
+	border-bottom-color: rgba(43,53,75,1); 
+}
+
+/* sticky */
+header.header-with-widgets.nav-style-2.nav-dark .nav-menu > li > .sub-menu:before, header.header-with-widgets.nav-style-3.nav-dark .nav-menu > li > .sub-menu:before   {
+	border-bottom-color: rgba(255,255,255,1);
+}		
+.nav-style-2.nav-dark .nav-menu > li > .sub-menu:before, .nav-style-3.nav-dark .nav-menu > li > .sub-menu:before {
+	border-bottom-color: rgba(255,255,255,1);
+}
+
+@media (min-width: 992px) {	
+	.header-with-widgets > .mainheader > div > .container,  .header-with-widgets .site-branding{
+		min-height: 120px;
+	}
+}
+
+@media (min-width: 992px) {
+	.nav-menu > .menu-item > a {
+		padding-left: 11px;
+		padding-right: 11px;
+	}
+}
+	
+
+@media (max-width: 991px) {
+	.nav-menu > li:nth-last-child(2) > a {
+		border-bottom: none;
+	}
+}
+
+.top-bar .so-widget-orion_mega_widget_topbar > .widget-title span[class*="icon"] {
+	color: #00bcd4;
+}
+.top-bar .so-widget-orion_mega_widget_topbar > .widget-title:not(.active):hover span[class*="icon"] {
+	color: #00bcd4;
+}	
+.top-bar .so-widget-orion_mega_widget_topbar > .widget-title.active span[class*="icon"] {
+	color: #fff;
+}
+
+
+
+.top-bar .so-widget-orion_mega_widget_topbar > .widget-title.featured span[class*="icon"] {
+	color: #3F51B5;
+}
+.top-bar .so-widget-orion_mega_widget_topbar > .widget-title.featured:not(.active):hover span[class*="icon"] {
+	color: #3F51B5;
+}	
+.top-bar .so-widget-orion_mega_widget_topbar > .widget-title.featured.active span[class*="icon"] {
+	color: #fff;
+}
+
+	
+
+.prev-post a:hover, .next-post a:hover {
+	background-color: rgba(0,188,212,0.85);
+}
+.prev-post.bg-img a:not(:hover), .next-post.bg-img a:not(:hover) {
+	background-color: rgba(255,255,255,0.85);
+}
+
+@media (min-width: 992px) {	
+	.header-classic.site-header .site-branding {
+		min-height: 120px;
+	}
+
+	.header-with-widgets.site-header .site-branding {
+		min-height: 120px;
+	}
+	.header-with-widgets .relative-wrap {
+		height: 120px;
+	}
+
+	.header-with-widgets.site-header .header-widgets > * {
+		max-height: 120px;
+	}
+
+	.header-with-widgets.site-header .header-widgets img {
+		max-height: 120px;
+		width: auto;
+	}
+
+	.header-classic.nav-style-1:not(.stickymenu) .nav-menu > li > a,
+	.header-classic.nav-style-2:not(.stickymenu) .nav-menu > li:not(.last-tab),
+	.header-classic.nav-style-3:not(.stickymenu) .nav-menu > li > a
+	 {
+		padding-top: 42px;
+		padding-bottom: 42px;
+	}
+
+	.header-classic.nav-style-2:not(.stickymenu) .nav-menu > .orion-megamenu > .mega-indicator-wrap:after {
+		top: 42px;
+	}
+
+	.header-classic.nav-style-3:not(.stickymenu) .nav-menu > li > .last-tab-wrap,
+	.header-classic.nav-style-1:not(.stickymenu) .nav-menu > li > .last-tab-wrap,		
+	.header-classic.nav-style-2:not(.stickymenu) .nav-menu > .last-tab {
+		padding-top: 42px;
+	}	
+	.nav-style-2:not(.type-fluid-nav):not(.stickymenu) .nav-menu > li > .sub-menu, .nav-style-2:not(.type-fluid-nav):not(.stickymenu) .nav-menu > li > .togglecontainer {
+		top: 120px;
+	}
+
+	.header-classic a.logo > img, .header-classic a.site-title {
+		top: 50%;
+	}
+
+	.header-with-widgets a.logo > img{
+		top: 50%;
+	}	
+	.header-with-widgets a.site-title > span, .header-classic a.site-title > span{
+		top: 50%;
+	    transform: translateY(-50%);
+	    position: absolute;
+	}
+	.header-classic .last-tab-wrap .woocart {
+		max-height:120px!important;
+		height:120px!important;
+		margin-top:0!important;
+		transform: translateY(-36px);
+	}
+}
+
+.woocommerce a.remove:hover, .woocommerce div.product form.cart .reset_variations:hover {
+	color: #00bcd4!important;
+}
+
+.primary-hover:hover, .primary-hover:hover > a {
+	color: #00bcd4;
+}
+
+
+
+/******************************* O.o *****************************/
+/* 		                       Overlays                          */ 
+/*****************************************************************/
+.overlay-c1-wrapper {
+    background: #00bcd4;
+    opacity: 0.8;
+} 
+.overlay-c2-wrapper {
+    background: #3F51B5;
+    opacity: 0.8;
+} 
+.overlay-c3-wrapper {
+    background: #2B354B;
+    opacity: 0.8;
+}
+.overlay-c1-c2-wrapper {
+    background: linear-gradient(-45deg, #00bcd4, #3F51B5);
+    opacity: 0.8;
+} 
+.overlay-c2-c1-wrapper {
+    background: linear-gradient(-45deg, #3F51B5, #00bcd4);
+    opacity: 0.8;
+} 
+
+@media (min-width: 992px) {	
+	.overlay-c1-t-wrapper{
+		background: linear-gradient(90deg,#00bcd4 0%,rgba(255,255,255,0) 100%);
+	    opacity: 0.95;
+	} 
+	.overlay-c2-t-wrapper{
+		background: linear-gradient(90deg,#3F51B5 0%,rgba(255,255,255,0) 100%);
+	    opacity: 0.95;
+	} 
+	.overlay-c3-t-wrapper{
+		background: linear-gradient(90deg,#2B354B 0%,rgba(255,255,255,0) 100%);
+	    opacity: 0.95;
+	}
+}
+@media (max-width: 991px) {	
+	.overlay-c1-t-wrapper{
+		background: #00bcd4;
+	    opacity: 0.85;
+	} 
+	.overlay-c2-t-wrapper{
+		background: #3F51B5;
+	    opacity: 0.85;
+	} 
+	.overlay-c3-t-wrapper{
+		background: #2B354B;
+	    opacity: 0.85;
+	}
+}
+
+.bg-c1-trans {
+	background-color: rgba(0,188,212,0.05);
+}
+
+
+button:hover, button:focus,.btn:hover, .btn:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+	background-color: #00bcd4;
+}
+button.btn-c1, .btn.btn-c1, input.btn-c1[type="submit"], .post-password-form input[type="submit"] {
+  background: #00bcd4;
+  color: #fff;
+}
+.btn:focus, .btn:active, .btn.active {
+	color: #fff;
+	background: #00bcd4;
+	box-shadow: none;
+	outline: none;
+}
+.icon-left.btn-wire:hover span[class*="icon"], .icon-left.btn-wire:focus span[class*="icon"], .icon-left.btn-wire:active span[class*="icon"],
+.icon-right.btn-wire:hover span[class*="icon"], .icon-right.btn-wire:focus span[class*="icon"], .icon-right.btn-wire:active span[class*="icon"] {
+  background: #0fcbe3;
+  box-shadow: inset 0 0 0 1px #00bcd4;    
+}
+
+button.btn-c1.btn-wire:not(:hover):not(:focus), .btn.btn-c1.btn-wire:not(:hover):not(:focus), input.btn-c1.btn-wire[type="submit"]:not(:hover) {
+  color: #00bcd4;
+  background: transparent;
+  box-shadow: inset 0 0 0 1px #00bcd4;
+}
+button.btn-c1.btn-wire:not(:hover):not(:focus) span[class*="icon"]:after, button.btn-c1.btn-wire:not(:hover):not(:focus) i:after,
+.btn.btn-c1.btn-wire:not(:hover):not(:focus) span[class*="icon"]:after, .btn.btn-c1.btn-wire:not(:hover):not(:focus) i:after,
+input.btn-c1.btn-wire[type="submit"]:not(:hover) span[class*="icon"]:after, input.btn-c1.btn-wire[type="submit"]:not(:hover) i:after {
+  border-color: #00bcd4; 
+}
+button.btn-c1:hover, .btn.btn-c1:hover, input.btn-c1[type="submit"]:hover, .post-password-form input[type="submit"]:hover {
+  background: #0fcbe3;
+  color: #fff;
+}
+.btn-c1.icon-left:hover span[class*="icon"], .btn-c1.icon-left:focus span[class*="icon"], .btn-c1.icon-left:active span[class*="icon"],
+.btn-c1.icon-right:hover span[class*="icon"], .btn-c1.icon-right:focus span[class*="icon"], .btn-c1.icon-right:active span[class*="icon"] {
+  background: #00bcd4;
+}
+
+button.btn-c1.btn-wire:hover, .btn.btn-c1.btn-wire:hover, input.btn-c1.btn-wire[type="submit"]:hover {
+  background: #00bcd4;
+}
+.btn-c1.icon-left.btn-wire:hover span[class*="icon"], .btn-c1.icon-left.btn-wire:focus span[class*="icon"], .btn-c1.icon-left.btn-wire:active span[class*="icon"],
+.btn-c1.icon-right.btn-wire:hover span[class*="icon"], .btn-c1.icon-right.btn-wire:focus span[class*="icon"], .btn-c1.icon-right.btn-wire:active span[class*="icon"] {
+  background: #0fcbe3;
+  box-shadow: inset 0 0 0 1px #00bcd4;    
+}
+
+.btn-c1.icon-left:hover span[class*="icon"]:after {
+  display:none;
+}
+
+button.btn-c2, .btn.btn-c2, input.btn-c2[type="submit"] {
+  background: #3F51B5;
+  color: #fff;
+}
+button.btn-c2.btn-wire:not(:hover):not(:focus), .btn.btn-c2.btn-wire:not(:hover):not(:focus), input.btn-c2.btn-wire[type="submit"]:not(:hover) {
+  color: #3F51B5;
+  background: transparent;
+  box-shadow: inset 0 0 0 1px #3F51B5;
+}
+button.btn-c2.btn-wire:not(:hover):not(:focus) span[class*="icon"]:after, button.btn-c2.btn-wire:not(:hover):not(:focus) i:after,
+.btn.btn-c2.btn-wire:not(:hover):not(:focus) span[class*="icon"]:after, .btn.btn-c2.btn-wire:not(:hover):not(:focus) i:after,
+input.btn-c2.btn-wire[type="submit"]:not(:hover) span[class*="icon"]:after, input.btn-c2.btn-wire[type="submit"]:not(:hover) i:after  {
+  border-color: #3F51B5; 
+}
+button.btn-c2:hover, .btn.btn-c2:hover, input.btn-c2[type="submit"]:hover {
+  background: #4e60c4;
+  color: #fff;
+}
+.btn-c2.icon-left:hover span[class*="icon"], .btn-c2.icon-left:focus span[class*="icon"], .btn-c2.icon-left:active span[class*="icon"],
+.btn-c2.icon-right:hover span[class*="icon"], .btn-c2.icon-right:focus span[class*="icon"], .btn-c2.icon-right:active span[class*="icon"] {
+  background: #3F51B5;
+}
+button.btn-c2.btn-wire:hover, .btn.btn-c2.btn-wire:hover, input.btn-c2.btn-wire[type="submit"]:hover {
+  background: #3F51B5;
+  color: #fff;
+}
+.btn-c2.icon-left.btn-wire:hover span[class*="icon"], .btn-c2.icon-left.btn-wire:focus span[class*="icon"], .btn-c2.icon-left.btn-wire:active span[class*="icon"],
+.btn-c2.icon-right.btn-wire:hover span[class*="icon"], .btn-c2.icon-right.btn-wire:focus span[class*="icon"], .btn-c2.icon-right.btn-wire:active span[class*="icon"] {
+  background: #4e60c4;
+  box-shadow: inset 0 0 0 1px #3F51B5;    
+}
+.btn-c2.icon-left:hover span[class*="icon"]:after {
+  display:none;
+}
+
+button.btn-c3, .btn.btn-c3, input.btn-c3[type="submit"] {
+  background: #2B354B;
+  color: #fff;
+}
+button.btn-c3.btn-wire:not(:hover):not(:focus), .btn.btn-c3.btn-wire:not(:hover):not(:focus), input.btn-c3.btn-wire[type="submit"]:not(:hover) {
+  color: #2B354B;
+  background: transparent;
+  box-shadow: inset 0 0 0 1px #2B354B;
+}
+button.btn-c3.btn-wire:not(:hover):not(:focus) span[class*="icon"]:after, button.btn-c3.btn-wire:not(:hover):not(:focus) i:after,
+.btn.btn-c3.btn-wire:not(:hover):not(:focus) span[class*="icon"]:after, .btn.btn-c3.btn-wire:not(:hover):not(:focus) i:after,
+input.btn-c3.btn-wire[type="submit"]:not(:hover) span[class*="icon"]:after, input.btn-c3.btn-wire[type="submit"]:not(:hover) i:after  {
+  border-color: #2B354B; 
+}
+button.btn-c3:hover, .btn.btn-c3:hover, input.btn-c3[type="submit"]:hover, .woocommerce-message a.button:hover {
+  background: #3a445a;
+  color: #fff;
+}
+.btn-c3.icon-left:hover span[class*="icon"], .btn-c3.icon-left:focus span[class*="icon"], .btn-c3.icon-left:active span[class*="icon"],
+.btn-c3.icon-right:hover span[class*="icon"], .btn-c3.icon-right:focus span[class*="icon"], .btn-c3.icon-right:active span[class*="icon"] {
+  background: #2B354B;
+}
+
+button.btn-c3.btn-wire:hover, .btn.btn-c3.btn-wire:hover, input.btn-c3.btn-wire[type="submit"]:hover {
+  background: #2B354B;
+}
+.btn-c3.icon-left.btn-wire:hover span[class*="icon"], .btn-c3.icon-left.btn-wire:focus span[class*="icon"], .btn-c3.icon-left.btn-wire:active span[class*="icon"],
+.btn-c3.icon-right.btn-wire:hover span[class*="icon"], .btn-c3.icon-right.btn-wire:focus span[class*="icon"], .btn-c3.icon-right.btn-wire:active span[class*="icon"] {
+  background: #3a445a;
+  box-shadow: inset 0 0 0 1px #2B354B;     
+}
+
+.btn-c3.icon-left:hover span[class*="icon"]:after {
+  display:none;
+}
+button.btn-empty:not(:hover), .btn.btn-empty:not(:hover), input.btn-empty[type="submit"]:not(:hover) {
+  	color: #00bcd4;
+}
+button.btn-c2.btn-empty:not(:hover), .btn.btn-c2.btn-empty:not(:hover), input.btn-c2.btn-empty[type="submit"]:not(:hover) {
+	color: #3F51B5;
+}
+button.btn-c3.btn-empty:not(:hover), .btn.btn-c3.btn-empty:not(:hover), input.btn-c3.btn-empty[type="submit"]:not(:hover) {
+  	color: #2B354B;
+}
+
+
+
+.block-editor-page .editor-styles-wrapper, 
+p , lead, small, html, body,
+.text-dark p, .text-dark lead, .text-dark small, .orion-pricelist .description, h1.text-dark > small, h1.text-dark.small, h2.text-dark > small, h2.text-dark.small, h3.text-dark > small, h3.text-dark.small, h4.text-dark > small, h4.text-dark.small, h5.text-dark > small, h5.text-dark.small, h6.text-dark > small, h6.text-dark.small, a.category {
+	color: #959595;
+}
+
+.text-light p , .text-light lead, .text-light small, 
+.text-dark .text-light p, .text-dark .text-light lead, .text-dark .text-light small, .text-light blockquote footer, h1.text-light > small, h1.text-light.small, h2.text-light > small, h2.text-light.small, h3.text-light > small, h3.text-light.small, h4.text-light > small, h4.text-light.small, h5.text-light > small, h5.text-light.small, h6.text-light > small, h6.text-light.small  {
+	color: #ffffff;
+}
+.text-light {
+ 	color:  rgba(255,255,255,0.8);
+}
+
+.text-light .owl-theme .owl-dots .owl-dot, .text-dark .text-light .owl-theme .owl-dots .owl-dot {
+  background: rgba(255,255,255,0.4);
+  box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.05); 
+}
+
+.owl-theme .owl-dots .owl-dot, .text-dark .owl-theme .owl-dots .owl-dot, .text-light .text-dark .owl-theme .owl-dots .owl-dot {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05); 
+} 
+
+.arrows-aside .text-dark i {
+	color: rgba(0, 0, 0, 0.3);
+}
+.arrows-aside .text-dark a:hover i  {
+	color: rgba(0, 0, 0, 0.7);
+}
+.arrows-aside .text-light i {
+	color: rgba(255,255,255,0.3)!important;
+}
+.arrows-aside .text-light a:hover i {
+	color: rgba(255,255,255,0.7)!important;
+}
+.text-dark a:not(.btn), .text-light .text-dark a:not(.btn), .header-widgets .widget_nav_menu .sub-menu li a,
+.text-dark .widget_shopping_cart_content .woo-cart-icon,
+.text-dark .widget_shopping_cart_content .cart-quantity {
+	color: #212121;
+}
+.text-dark a:not(.btn):not(.primary-hover):not(.secondary-hover):not(.tertiary-hover):hover, .text-light .text-dark a:not(.btn):hover{
+	color: #000;
+}
+.text-dark a:not(.btn):focus, .text-light .text-dark a:not(.btn):focus, .so-widget-orion_custom_menu_w .text-dark .current-menu-ancestor > a, .so-widget-orion_custom_menu_w .text-dark .current-menu-item > a
+{
+	color: #000;
+}
+.page-heading.text-dark .breadcrumbs ol li a, .page-heading.text-dark .breadcrumbs ol li:after, .page-heading.text-dark .breadcrumbs ol li span {
+	color: #212121!important;
+}
+.text-light .text-dark .item-title:after, .text-dark .item-title:after,
+.text-light .text-dark .border, .text-dark .border 
+{
+	border-color: #595959; 
+}
+
+.text-dark .text-light .item-title:after, .text-light .item-title:after,
+.text-dark .text-light .border, .text-light .border
+{
+ border-color: #ffffff; 
+}
+
+/* text light HEADING colors */
+.text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6, .text-light > h1, .text-light > h2, .text-light > h3, .text-light > h4, .text-light > h5, .text-light > h6, h1.text-light, h2.text-light, h3.text-light, h4.text-light, h5.text-light, h6.text-light {
+	color: #ffffff!important; 
+}
+.page-heading.text-light h1.entry-title{
+ 	color: #ffffff!important; 
+}
+.page-heading.text-dark h1.entry-title {
+	color: #595959!important; 
+}
+
+.text-light h2.item-title, .text-light h3.item-title, .text-light h4.item-title, 
+.text-dark .text-light h2.item-title, .text-dark .text-light h3.item-title, .text-dark .text-light h4.item-title
+{
+ 	color: #ffffff; 
+}
+
+.text-light .text-dark .item-title, .text-dark .item-title,
+.text-light .text-dark a.item-title, .text-dark a.item-title,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, item-title, a.item-title, a:not(:hover) > h2.item-title.text-dark, a:not(:hover) > h3.item-title.text-dark, a:not(:hover) > h4.item-title.text-dark, .woocommerce div.product p.price, .orion-product-title, label
+{
+  color: #595959; 
+}
+
+.text-light a:not(.btn), .text-dark .text-light a:not(.btn),
+.text-light .widget_shopping_cart_content .woo-cart-icon, 
+.text-light .widget_shopping_cart_content .cart-quantity {
+	color: #ffffff;
+}
+.text-light a:not(.btn):hover, .text-dark .text-light a:not(.btn):hover{
+	color: #00bcd4;
+}
+.text-light a:not(.btn):focus, .text-dark .text-light a:not(.btn):focus,
+.so-widget-orion_custom_menu_w .text-light .current-menu-ancestor > a, .so-widget-orion_custom_menu_w .text-light .current-menu-item > a
+{
+	color: #00bcd4;
+}
+
+.page-heading.text-light .breadcrumbs ol li a, .page-heading.text-light .breadcrumbs ol li:after, .page-heading.text-light .breadcrumbs ol li span {
+	color: #ffffff!important;
+}
+
+.site-footer.text-light a:not(.btn):not(:hover) {
+	color: rgba(255,255,255,0.8);
+}
+
+@media (min-width: 992px) {
+  	.site-branding.text-light a.site-title .h1 {
+    	color: #ffffff;  
+	}
+  	.site-branding.text-dark a.site-title .h1 {
+    	color: #595959;
+	} 
+}
+
+.text-dark, .text-light .text-dark
+ {
+  color: #959595;
+}
+
+.text-light button.btn-empty:hover, .text-light .btn.btn-empty:hover, .text-light input.btn-empty[type="submit"]:hover, .text-dark .text-light button.btn-empty:hover, .text-dark .text-light .btn.btn-empty:hover, .text-dark .text-light input.btn-empty[type="submit"]:hover 
+{
+  color: #ffffff!important; 
+}
+
+.text-dark button.btn-empty:hover, .text-dark .btn.btn-empty:hover, .text-dark input.btn-empty[type="submit"]:hover, .text-light .text-dark button.btn-empty:hover, .text-light .text-dark .btn.btn-empty:hover, .text-light .text-dark input.btn-empty[type="submit" ]:hover
+{
+  color: #595959!important; 
+}
+
+.text-dark h2.item-title, .text-dark h3.item-title, .text-dark h4.item-title, 
+.text-light .text-dark h2.item-title, .text-light .text-dark h3.item-title, .text-light .text-dark h4.item-title,
+.text-dark > h1, .text-dark > h2, .text-dark > h3, .text-dark > h4, .text-dark > h5, .text-dark > h6,
+h1.text-dark, h2.text-dark, h3.text-dark, h4.text-dark, h5.text-dark, h6.text-dark {
+	color: #595959;
+}
+
+input[type='text']:not(.site-search-input), input[type='email'], .wpcf7-form input[type='email'], .wpcf7-form input[type='text'],textarea, .wpcf7-form textarea {
+	color: #595959;
+}
+
+/* separator colors */
+
+.separator-style-1.style-text-light:before {
+	border-bottom: 2px solid rgba(255,255,255,0.2); 
+}
+
+.separator-style-2.style-text-light:before {
+  	background-color: #ffffff;
+}
+
+.separator-style-2 h1.text-light:before, .separator-style-2 h2.text-light:before, .separator-style-2 h3.text-light:before, .separator-style-2 h4.text-light:before, .separator-style-2 h5.text-light:before, .separator-style-2 h6.text-light:before, .separator-style-2.text-center h1.text-light:before, .separator-style-2.text-center h2.text-light:before, .separator-style-2.text-center h3.text-light:before, .separator-style-2.text-center h4.text-light:before, .separator-style-2.text-center h5.text-light:before, .separator-style-2.text-center h6.text-light:before, .separator-style-2.text-center h1.text-light:after, .separator-style-2.text-center h2.text-light:after, .separator-style-2.text-center h3.text-light:after, .separator-style-2.text-center h4.text-light:after, .separator-style-2.text-center h5.text-light:after, .separator-style-2.text-center h6.text-light:after {
+  	border-bottom: 2px solid rgba(255,255,255,0.2); 
+}
+
+/* tabs and accordions */
+
+.panel-group.text-light .panel-title > a:after {
+  color: #ffffff; 
+}
+
+.panel-group.default_bg.text-dark {
+  background-color: #ffffff;
+}
+
+.panel-group.default_bg.text-light {
+  	background-color: #595959; 
+}
+
+
+.has-primary-color, 
+.has-primary-color p {
+	color: #00bcd4; 
+}
+.has-secondary-color, 
+.has-secondary-color p {
+	color: #3F51B5; 
+}
+.has-tertiary-color, 
+.has-tertiary-color p  {
+	color: #2B354B; 
+}
+
+.has-white-color, .has-white-color p {
+	color: #fff;
+}
+
+.has-black-color, .has-black-color p {
+	color: #000; 
+}
+
+.has-primary-background-color, .wp-block-button__link {
+	background-color: #00bcd4; 
+}
+.has-secondary-background-color {
+	background-color: #3F51B5; 
+}
+.has-tertiary-background-color {
+	background-color: #2B354B; 
+}
+.has-white-background-color {
+	background-color: #fff; 
+}
+.has-black-background-color {
+	background-color: #000; 
+}

@@ -1,0 +1,228 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$orionicon-icon_close: unicode(ea02);
+$orionicon-arrow_right: unicode(ea04);
+$orionicon-icon_search2: unicode(ea06);
+$orionicon-arrow_carrot-right: unicode(ea07);
+$orionicon-arrow_carrot-left: unicode(ea08);
+$orionicon-icon_group: unicode(ea09);
+$orionicon-icon_images: unicode(ea0a);
+$orionicon-icon_cloud-download_alt: unicode(ea0b);
+$orionicon-icon_check: unicode(ea0c);
+$orionicon-icon_cart: unicode(ea0d);
+$orionicon-icon_clock_alt: unicode(ea0e);
+$orionicon-icon_calendar: unicode(ea0f);
+$orionicon-icon_profile: unicode(ea10);
+$orionicon-arrow_carrot-down: unicode(ea11);
+$orionicon-icon_check_alt: unicode(ea12);
+$orionicon-icon_check_alt2: unicode(ea13);
+$orionicon-icon_star_alt: unicode(ea14);
+$orionicon-arrow_carrot-right_alt2: unicode(ea15);
+$orionicon-mail-reply: unicode(ea18);
+$orionicon-facebook: unicode(ea19);
+$orionicon-twitter: unicode(ea1a);
+$orionicon-google-plus: unicode(ea1b);
+$orionicon-linkedin: unicode(ea1c);
+$orionicon-link: unicode(ea1d);
+$orionicon-arrow-circle-o-right: unicode(ea1e);
+$orionicon-arrow-circle-o-left: unicode(ea1f);
+$orionicon-quote-left: unicode(ea22);
+$orionicon-commenting: unicode(ea23);
+$orionicon-play-circle-o: unicode(ea24);
+$orionicon-refresh: unicode(ea25);
+$orionicon-times: unicode(ea26);
+$orionicon-pencil: unicode(ea27);
+$orionicon-expand: unicode(ea28);
+$orionicon-ticket: unicode(ea29);
+$orionicon-truck: unicode(ea2a);
+$orionicon-arrow_left: unicode(ea2b);
+$orionicon-arrow_carrot-2up: unicode(ea2c);
+$orionicon-icon_mail_alt: unicode(ea2d);
+$orionicon-icon_phone: unicode(ea2e);
+$orionicon-icon_heart: unicode(ea2f);
+$orionicon-snapchat-ghost: unicode(ea30);
+$orionicon-youtube: unicode(ea31);
+$orionicon-envelope-o: unicode(ea32);
+$orionicon-icon_plus: unicode(ea33);
+
+.orionicon-icon_close::before {
+  content: $orionicon-icon_close;
+}
+
+.orionicon-arrow_right::before {
+  content: $orionicon-arrow_right;
+}
+
+.orionicon-icon_search2::before {
+  content: $orionicon-icon_search2;
+}
+
+.orionicon-arrow_carrot-right::before {
+  content: $orionicon-arrow_carrot-right;
+}
+
+.orionicon-arrow_carrot-left::before {
+  content: $orionicon-arrow_carrot-left;
+}
+
+.orionicon-icon_group::before {
+  content: $orionicon-icon_group;
+}
+
+.orionicon-icon_images::before {
+  content: $orionicon-icon_images;
+}
+
+.orionicon-icon_cloud-download_alt::before {
+  content: $orionicon-icon_cloud-download_alt;
+}
+
+.orionicon-icon_check::before {
+  content: $orionicon-icon_check;
+}
+
+.orionicon-icon_cart::before {
+  content: $orionicon-icon_cart;
+}
+
+.orionicon-icon_clock_alt::before {
+  content: $orionicon-icon_clock_alt;
+}
+
+.orionicon-icon_calendar::before {
+  content: $orionicon-icon_calendar;
+}
+
+.orionicon-icon_profile::before {
+  content: $orionicon-icon_profile;
+}
+
+.orionicon-arrow_carrot-down::before {
+  content: $orionicon-arrow_carrot-down;
+}
+
+.orionicon-icon_check_alt::before {
+  content: $orionicon-icon_check_alt;
+}
+
+.orionicon-icon_check_alt2::before {
+  content: $orionicon-icon_check_alt2;
+}
+
+.orionicon-icon_star_alt::before {
+  content: $orionicon-icon_star_alt;
+}
+
+.orionicon-arrow_carrot-right_alt2::before {
+  content: $orionicon-arrow_carrot-right_alt2;
+}
+
+.orionicon-mail-reply::before {
+  content: $orionicon-mail-reply;
+}
+
+.orionicon-facebook::before {
+  content: $orionicon-facebook;
+}
+
+.orionicon-twitter::before {
+  content: $orionicon-twitter;
+}
+
+.orionicon-google-plus::before {
+  content: $orionicon-google-plus;
+}
+
+.orionicon-linkedin::before {
+  content: $orionicon-linkedin;
+}
+
+.orionicon-link::before {
+  content: $orionicon-link;
+}
+
+.orionicon-arrow-circle-o-right::before {
+  content: $orionicon-arrow-circle-o-right;
+}
+
+.orionicon-arrow-circle-o-left::before {
+  content: $orionicon-arrow-circle-o-left;
+}
+
+.orionicon-quote-left::before {
+  content: $orionicon-quote-left;
+}
+
+.orionicon-commenting::before {
+  content: $orionicon-commenting;
+}
+
+.orionicon-play-circle-o::before {
+  content: $orionicon-play-circle-o;
+}
+
+.orionicon-refresh::before {
+  content: $orionicon-refresh;
+}
+
+.orionicon-times::before {
+  content: $orionicon-times;
+}
+
+.orionicon-pencil::before {
+  content: $orionicon-pencil;
+}
+
+.orionicon-expand::before {
+  content: $orionicon-expand;
+}
+
+.orionicon-ticket::before {
+  content: $orionicon-ticket;
+}
+
+.orionicon-truck::before {
+  content: $orionicon-truck;
+}
+
+.orionicon-arrow_left::before {
+  content: $orionicon-arrow_left;
+}
+
+.orionicon-arrow_carrot-2up::before {
+  content: $orionicon-arrow_carrot-2up;
+}
+
+.orionicon-icon_mail_alt::before {
+  content: $orionicon-icon_mail_alt;
+}
+
+.orionicon-icon_phone::before {
+  content: $orionicon-icon_phone;
+}
+
+.orionicon-icon_heart::before {
+  content: $orionicon-icon_heart;
+}
+
+.orionicon-snapchat-ghost::before {
+  content: $orionicon-snapchat-ghost;
+}
+
+.orionicon-youtube::before {
+  content: $orionicon-youtube;
+}
+
+.orionicon-envelope-o::before {
+  content: $orionicon-envelope-o;
+}
+
+.orionicon-icon_plus::before {
+  content: $orionicon-icon_plus;
+}
+

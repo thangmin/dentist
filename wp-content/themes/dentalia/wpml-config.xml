@@ -1,0 +1,24 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="0">static_blocks</custom-type>
+    <custom-type translate="0">wpcf7_contact_form</custom-type>
+    <custom-type translate="0">team-member</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="0">department</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="dentalia">
+      <key name="logo_upload_dark">
+        <key name="url"/>
+      </key>
+      <key name="logo_upload_light">
+        <key name="url"/>
+      </key>
+      <key name="logo_upload_sticky">
+        <key name="url"/>
+      </key>
+      <key name="text_logo"/>
+    </key>
+  </admin-texts>
+</wpml-config>

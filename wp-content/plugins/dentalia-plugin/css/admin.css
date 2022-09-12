@@ -1,0 +1,17 @@
+#orion-to-header .display_header {
+  padding: 30px;
+  background-color: #fff; }
+  #orion-to-header .display_header .logo {
+    max-width: 160px;
+    display: block; }
+    #orion-to-header .display_header .logo img {
+      max-width: 100%; }
+  #orion-to-header .display_header h2 {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 6px; }
+
+/* hide annoying revslider upsell notification */
+.wp-list-table.plugins #revslider-update {
+  display: none;
+}

@@ -1,0 +1,76 @@
+/************************************* O.o *************************************/
+/*                               Text light / dark                             */
+/*******************************************************************************/
+.text-dark {
+  color: #959595; }
+  .text-dark > h1, .text-dark > h2, .text-dark > h3, .text-dark > h4, .text-dark > h5, .text-dark > h6 {
+    color: #595959; }
+
+.text-light {
+  color: rgba(255, 255, 255, 0.8); }
+  .text-light > h1, .text-light > h2, .text-light > h3, .text-light > h4, .text-light > h5, .text-light > h6 {
+    color: #fff; }
+
+.text-dark {
+  color: #959595; }
+  .text-dark > h1, .text-dark > h2, .text-dark > h3, .text-dark > h4, .text-dark > h5, .text-dark > h6 {
+    color: #595959; }
+
+.text-light {
+  color: rgba(255, 255, 255, 0.8); }
+  .text-light > h1, .text-light > h2, .text-light > h3, .text-light > h4, .text-light > h5, .text-light > h6 {
+    color: #fff; }
+
+h1.text-dark, h2.text-dark, h3.text-dark, h4.text-dark, h5.text-dark, h6.text-dark {
+  color: #595959; }
+  h1.text-dark > small, h1.text-dark.small, h2.text-dark > small, h2.text-dark.small, h3.text-dark > small, h3.text-dark.small, h4.text-dark > small, h4.text-dark.small, h5.text-dark > small, h5.text-dark.small, h6.text-dark > small, h6.text-dark.small {
+    color: #959595; }
+
+h1.text-light, h2.text-light, h3.text-light, h4.text-light, h5.text-light, h6.text-light {
+  color: #fff; }
+  h1.text-light > small, h1.text-light.small, h2.text-light > small, h2.text-light.small, h3.text-light > small, h3.text-light.small, h4.text-light > small, h4.text-light.small, h5.text-light > small, h5.text-light.small, h6.text-light > small, h6.text-light.small {
+    color: #fff; }
+
+.separator-style-1.style-text-light:before {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2); }
+
+.separator-style-2.style-text-light:before {
+  background-color: #fff; }
+
+.separator-style-2 h1.text-light:before, .separator-style-2 h2.text-light:before, .separator-style-2 h3.text-light:before, .separator-style-2 h4.text-light:before, .separator-style-2 h5.text-light:before, .separator-style-2 h6.text-light:before {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2); }
+
+.separator-style-2.text-center h1.text-light:before, .separator-style-2.text-center h2.text-light:before, .separator-style-2.text-center h3.text-light:before, .separator-style-2.text-center h4.text-light:before, .separator-style-2.text-center h5.text-light:before, .separator-style-2.text-center h6.text-light:before {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2); }
+
+.separator-style-2.text-center h1.text-light:after, .separator-style-2.text-center h2.text-light:after, .separator-style-2.text-center h3.text-light:after, .separator-style-2.text-center h4.text-light:after, .separator-style-2.text-center h5.text-light:after, .separator-style-2.text-center h6.text-light:after {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2); }
+
+.panel-group.text-light .panel-title > a:after {
+  color: #fff; }
+
+.panel-group.default_bg.text-dark {
+  background-color: #fff; }
+
+.panel-group.default_bg.text-light {
+  background-color: #595959; }
+
+.orion-pricelist .item-title.text-dark:after {
+  border-color: rgba(0, 0, 0, 0.05); }
+
+.orion-pricelist .item-title.text-light:after {
+  border-color: rgba(255, 255, 255, 0.1); }
+
+a.category {
+  color: #959595; }
+
+a:not(:hover) > h2.item-title.text-dark, a:not(:hover) > h3.item-title.text-dark, a:not(:hover) > h4.item-title.text-dark {
+  color: #595959; }
+
+.text-light .owl-theme .owl-dots .owl-dot, .text-dark .text-light .owl-theme .owl-dots .owl-dot {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.05); }
+
+.text-dark .owl-theme .owl-dots .owl-dot, .text-light .text-dark .owl-theme .owl-dots .owl-dot {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05); }

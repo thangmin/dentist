@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'dental-icons-4';
+  src:
+    url('fonts/dental-icons-4.ttf?njbwnh') format('truetype'),
+    url('fonts/dental-icons-4.woff?njbwnh') format('woff'),
+    url('fonts/dental-icons-4.svg?njbwnh#dental-icons-4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sow-icon-dentalicons4, [class^="familydentist-"], [class*=" familydentist-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dental-icons-4' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sow-icon-dentalicons4[data-sow-icon]:before{
+    font-family: 'dental-icons-4' !important;
+    content: attr(data-sow-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+}
+
+
+.familydentist-dentalia-dentist:before {
+  content: "\e900";
+}
+.familydentist-dentalia-apple:before {
+  content: "\e901";
+}
+.familydentist-dentalia-chair:before {
+  content: "\e902";
+}
+.familydentist-dentalia-diamond:before {
+  content: "\e903";
+}
+.familydentist-dentalia-kids:before {
+  content: "\e904";
+}
+.familydentist-dentalia-xray:before {
+  content: "\e905";
+}
+.familydentist-dentalia-drill:before {
+  content: "\e906";
+}
+.familydentist-dentalia-implant:before {
+  content: "\e907";
+}
+.familydentist-dentalia-extraction:before {
+  content: "\e908";
+}
+.familydentist-dentalia-syringe:before {
+  content: "\e909";
+}
+.familydentist-dentalia-tool1:before {
+  content: "\e90a";
+}
+.familydentist-dentalia-tool2:before {
+  content: "\e90b";
+}
+.familydentist-dentalia-tool3:before {
+  content: "\e90c";
+}
+.familydentist-dentalia-xray2:before {
+  content: "\e90d";
+}
+.familydentist-dentalia-filling:before {
+  content: "\e90e";
+}
+.familydentist-dentalia-toothache:before {
+  content: "\e90f";
+}
+.familydentist-dentalia-tooth:before {
+  content: "\e910";
+}
+.familydentist-dentalia-dentalfloss:before {
+  content: "\e911";
+}
+.familydentist-dentalia-toothpaste:before {
+  content: "\e912";
+}
+.familydentist-dentalia-toothbrush:before {
+  content: "\e913";
+}

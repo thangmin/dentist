@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'dental-icons-5';
+  src:
+    url('fonts/dental-icons-5.ttf?m63j0f') format('truetype'),
+    url('fonts/dental-icons-5.woff?m63j0f') format('woff'),
+    url('fonts/dental-icons-5.svg?m63j0f#dental-icons-5') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sow-icon-dentalicons5, [class^="dentistry-"], [class*=" dentistry-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dental-icons-5' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sow-icon-dentalicons5[data-sow-icon]:before{
+    font-family: 'dental-icons-5' !important;
+    content: attr(data-sow-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+}
+
+.dentistry-dentalia-tooth:before {
+  content: "\e900";
+}
+.dentistry-dentalia-tools:before {
+  content: "\e901";
+}
+.dentistry-dentalia-toothrepair:before {
+  content: "\e902";
+}
+.dentistry-dentalia-quality:before {
+  content: "\e903";
+}
+.dentistry-dentalia-patients:before {
+  content: "\e904";
+}
+.dentistry-dentalia-24hour:before {
+  content: "\e905";
+}
+.dentistry-dentalia-diamond:before {
+  content: "\e906";
+}
+.dentistry-dentalia-implant:before {
+  content: "\e907";
+}
+.dentistry-dentalia-folder:before {
+  content: "\e908";
+}
+.dentistry-dentalia-filling:before {
+  content: "\e909";
+}
+.dentistry-dentalia-smile:before {
+  content: "\e90a";
+}
+.dentistry-dentalia-emergency:before {
+  content: "\e90b";
+}
+.dentistry-dentalia-schedule:before {
+  content: "\e90c";
+}
+.dentistry-dentalia-booking:before {
+  content: "\e90d";
+}
+.dentistry-dentalia-prevention:before {
+  content: "\e90e";
+}
+.dentistry-dentalia-crown:before {
+  content: "\e90f";
+}
+.dentistry-dentalia-care:before {
+  content: "\e910";
+}
+.dentistry-dentalia-consultation:before {
+  content: "\e911";
+}
+.dentistry-dentalia-xray:before {
+  content: "\e912";
+}
+.dentistry-dentalia-love:before {
+  content: "\e913";
+}
+.dentistry-dentalia-phone:before {
+  content: "\e914";
+}
+.dentistry-dentalia-talk:before {
+  content: "\e915";
+}
+.dentistry-dentalia-mobile:before {
+  content: "\e916";
+}
+.dentistry-dentalia-family2:before {
+  content: "\e917";
+}
+.dentistry-dentalia-chair:before {
+  content: "\e918";
+}
+.dentistry-dentalia-apple:before {
+  content: "\e919";
+}
+.dentistry-dentalia-toothbrush:before {
+  content: "\e91a";
+}
+.dentistry-dentalia-syringe:before {
+  content: "\e91b";
+}
+.dentistry-dentalia-dentalwork:before {
+  content: "\e91c";
+}
+.dentistry-dentalia-location:before {
+  content: "\e91d";
+}

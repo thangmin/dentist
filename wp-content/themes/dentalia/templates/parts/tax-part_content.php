@@ -1,0 +1,1 @@
+<div class="entry-content"><?php the_content('<span class="button right read-more">'.__('Read More', 'dentalia').'</span>'); ?></div>
